@@ -1,4 +1,4 @@
-package com.wangshicheng.creational.facotry.example;
+package com.wangshicheng.creational.Facotry.example;
 
 public class IceCream {
 
