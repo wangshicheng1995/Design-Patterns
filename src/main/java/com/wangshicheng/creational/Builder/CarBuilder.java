@@ -37,7 +37,7 @@ public class CarBuilder {
         line.put("Chair", new Object());
         line.put("CarOS", new Object());
 
-        buildCar(line);
+        System.out.println(buildCar(line));
     }
 
     public static Car buildCar(Map<String, Object> line) {
