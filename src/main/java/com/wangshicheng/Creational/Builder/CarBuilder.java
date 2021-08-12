@@ -31,7 +31,7 @@ public class CarBuilder {
          */
         Map<String, Object> line = new HashMap<>();
         line.put("Wheel", new Object());
-        line.put("Engine", new Object());
+        line.put("abstractEngine", new Object());
         line.put("Chair", new Object());
         line.put("CarOS", new Object());
 
@@ -49,7 +49,7 @@ public class CarBuilder {
                 case "Wheel":
                     car.setWheel(wheelProvider.buildWheel(partSpeci));
                     break;
-                case "Engine":
+                case "abstractEngine":
                     car.setEngine(engineProvider.buildEngine(partSpeci));
                     break;
                 case "Chair":
