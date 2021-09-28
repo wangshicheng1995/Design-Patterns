@@ -15,9 +15,9 @@ public class App {
         chain.addHandler(new CEOHandler());
 
         //处理请求
-        chain.process(new Request("Bob", new BigDecimal(123.45)));
-        chain.process(new Request("Alice", new BigDecimal(1234.56)));
-        chain.process(new Request("Pig", new BigDecimal(12345.67)));
-        chain.process(new Request("Echo", new BigDecimal(123456.78)));
+        chain.process(new Request("Bob", new BigDecimal("123.45")));
+        chain.process(new Request("Alice", new BigDecimal("1234.56")));
+        chain.process(new Request("Pig", new BigDecimal("12345.67")));
+        chain.process(new Request("Echo", new BigDecimal("123456.78")));
     }
 }

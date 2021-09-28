@@ -1,7 +1,5 @@
 package com.wangshicheng.Behavioral.ChainOfRespnsibility;
 
-import com.wangshicheng.Behavioral.ChainOfRespnsibility.Handler;
-import com.wangshicheng.Behavioral.ChainOfRespnsibility.Request;
 
 import java.util.ArrayList;
 import java.util.List;
